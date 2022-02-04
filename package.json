@@ -1,0 +1,27 @@
+{
+  "name": "api-condominio",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node config/server.js",
+    "dev": "nodemon config/server.js --ignore __tests__"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github:M-Wellerson/api-condominio"
+  },
+  "author": "Marcos Máximo Rodrigues",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/M-Wellerson/api-condominio/issues"
+  },
+  "homepage": "https://github.com/M-Wellerson/api-condominio#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
