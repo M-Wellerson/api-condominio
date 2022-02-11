@@ -2,10 +2,10 @@
   "name": "api-condominio",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "./public/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node config/server.js",
+    "start": "nodemon config/server.js",
     "dev": "nodemon config/server.js --ignore __tests__"
   },
   "repository": {
@@ -19,9 +19,14 @@
   },
   "homepage": "https://github.com/M-Wellerson/api-condominio#readme",
   "dependencies": {
-    "express": "^4.17.2"
+    "@prisma/client": "^3.9.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "express-validator": "^6.14.0",
+    "prisma-offset-pagination": "^0.0.4"
   },
   "devDependencies": {
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "prisma": "^3.9.1"
   }
 }
